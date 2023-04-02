@@ -1,0 +1,17 @@
+{
+  "name": "seeker",
+  "description": "This repo contains an application named Seeker, it lets you search through a immersive Comic Book characters database.",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "repository": "https://github.com/leoronne/seeker",
+  "author": "Leonardo Ronne <leoronne@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:web": "cd ./client/ && npm run start",
+    "start:server": "cd ./server/ && npm start",
+    "dev:server": "cd ./server/ && npm run dev"
+  },
+  "engines": {
+    "node": "14.15.0"
+  }
+}
